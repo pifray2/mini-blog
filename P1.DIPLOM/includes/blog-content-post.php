@@ -19,10 +19,9 @@ $content = $_POST["content"];
 $sql = "INSERT INTO `blogs` (`id`, `img`, `header`, `description`) VALUES (NULL, '$cardImg','$cardHeader', '$cardDescription')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "Данные успешно записаны в БД";
+  header('Location: ../gallery.php');
 } else {
   echo "Ошибка записи данных в БД: " . $conn->error;
 }
-
 
 

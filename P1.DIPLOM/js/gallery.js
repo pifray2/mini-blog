@@ -65,11 +65,11 @@ $(document).ready(function() {
 });
 
 
-// card-add function
+// // card-add function
 // $(document).ready(function() {
 //   let cardCount = 6;
 //
-//   $('.add-card-btn').click(function() {
+//   $('.card-btn').click(function() {
 //     // adding div containers
 //     const cardContainer = $('<div></div>').addClass('col-lg-4 col-md-6 col-6');
 //     $('.row').append(cardContainer);

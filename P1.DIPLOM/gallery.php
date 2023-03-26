@@ -24,21 +24,25 @@
 
   <div id="popup-bg" class="popup-bg">
     <div class="popup card-popup">
-      <form action="" method="post">
+      <form action="includes/blog-content-post.php" method="post">
         <button type="button" class="btn-close" aria-label="Close"></button>
         <div class="test-card" >
           <div class="card test-card2">
             <div class="file-drop">
               <p class="drag-n-drop">Перетащите файлы сюда или нажмите для выбора</p>
-              <input type="file" id="file-drop" name="card-img" multiple/>
+              <input type="file" id="file-drop" name="card-img" multiple accept="image/*"/>
               <div id="imagePreview"></div>
             </div>
             <div class="card-body">
-              <textarea name="card-header" class="card-header" placeholder="Добавьте название"></textarea>
+              <label>
+                <textarea name="card-header" class="card-header" placeholder="Добавьте название" maxlength="100"></textarea>
+              </label>
               <p></p>
-              <textarea name="card-description" class="card-description" placeholder="Описание" ></textarea>
+              <label>
+                <textarea name="card-description" class="card-description" placeholder="Описание" maxlength="500"></textarea>
+              </label>
               <p></p>
-              <a href="#" class="btn btn-primary card-btn">Создать</a>
+              <button class="btn btn-primary card-btn">Создать</button>
             </div>
           </div>
         </div>

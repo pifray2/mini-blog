@@ -320,13 +320,13 @@ input {
   color: white;
 }
 
-.card-header{
+.card-header {
   width: 285px;
-  resize: none;
-  overflow-y:auto;
   border-radius: 10px;
   border: none;
   background-color: white;
+  resize: none;
+  overflow-y: auto;
 }
 
 .card-description {
@@ -354,6 +354,6 @@ input {
   left: 10%;
   width: 80%;
   height: 28%;
-  opacity: 0%;
+  opacity: 0;
   cursor: pointer;
 }

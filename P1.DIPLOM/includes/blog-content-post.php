@@ -14,14 +14,15 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-// Получение данных из формы
+// запись данных в бд
 $content = $_POST["content"];
 $sql = "INSERT INTO `blogs` (`id`, `img`, `header`, `description`) VALUES (NULL, '$cardImg','$cardHeader', '$cardDescription')";
 
 if ($conn->query($sql) === TRUE) {
-  header('Location: ../gallery.php');
+ header('Location: ../gallery.php');
 } else {
   echo "Ошибка записи данных в БД: " . $conn->error;
 }
+
 
 

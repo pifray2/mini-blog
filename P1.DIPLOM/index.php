@@ -67,7 +67,7 @@ session_start();
   <p></p>
   Разработчиком является <t style="color: chartreuse">Мийзамов Арсен Абдимомунович</t>, обучающийся в Нижневартовском государственном университете.
   <p></p>
-  В ходе разработки были применены такие инструменты как HTMl5, CSS, Javascript (Библиотека Jquery), PHP (Фреймворк Laravel);
+  В ходе разработки были применены такие инструменты как HTMl5, CSS, Javascript (Библиотека Jquery), PHP;
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

@@ -71,14 +71,10 @@ deleteButtons.forEach(button => {
   button.addEventListener('click', () => {
     const cardId = button.dataset.cardid;
     if (confirm("Вы действительно хотите удалить эту карточку?")) {
-      fetch(`includes/delete_card.php?card_id=${cardId}`)
+      fetch(`includes/delete_card.php?id=${cardId}`)
         .then(response => response.text())
         .then(result => {
-          if (result === "Card deleted successfully") {
-            location.reload();
-          } else {
-            console.log(result);
-          }
+          location.reload();
         })
     }
   });

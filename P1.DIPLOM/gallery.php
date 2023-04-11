@@ -37,6 +37,9 @@
               <label>
                 <textarea name="card-header" class="card-header" placeholder="Добавьте название" maxlength="100"></textarea>
               </label>
+              <label>
+                <textarea name="card-class" class="card-class" placeholder="Укажите жанр" maxlength="100"></textarea>
+              </label>
               <p></p>
               <label>
                 <textarea name="card-description" class="card-description" placeholder="Описание" maxlength="500"></textarea>
@@ -103,7 +106,7 @@
         <div class="card-body">
           <h5 class="card-title"><b>Прекрасная картина</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur blanditiis delectus dolor ea harum impedit iste iure, obcaecati pariatur quo quos reiciendis, sint ullam, veniam voluptas voluptatum?</p>
-          <a href="#" class="btn btn-primary">Согласен</a>
+          <button class="btn btn-primary">Согласен</button>
         </div>
       </div>
     </div>
@@ -117,6 +120,7 @@
         </div>
       </div>
     </div>
+    <?php include('includes/post.php'); ?>
 
 
 

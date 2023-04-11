@@ -37,12 +37,13 @@
               <label>
                 <textarea name="card-header" class="card-header" placeholder="Добавьте название" maxlength="100"></textarea>
               </label>
-              <label>
-                <textarea name="card-class" class="card-class" placeholder="Укажите жанр" maxlength="100"></textarea>
-              </label>
               <p></p>
               <label>
                 <textarea name="card-description" class="card-description" placeholder="Описание" maxlength="500"></textarea>
+              </label>
+              <p></p>
+              <label>
+                <textarea name="card-class" id="card-class" placeholder="Укажите жанр" maxlength="100"></textarea>
               </label>
               <p></p>
               <button  type="submit"  class="btn btn-primary card-btn">Создать</button>
@@ -62,61 +63,61 @@
   <div class="row" data-masonry='{"percentPosition": true}'>
     <div class="col-lg-4 col-md-6 col-6" >
       <div class="card портрет">
+        <button type="button" class="btn-close delete-card" aria-label="Close"></button>
         <img src="img/daniil.jpg" alt="" class="card-img-top card-v">
         <div class="card-body">
           <h5 class="card-title"><b>Прекрасный мужчина на прекрасном фоне</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Согласен</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-6">
       <div class="card портрет">
+        <button type="button" class="btn-close delete-card" aria-label="Close"></button>
         <img src="img/author.jpg" alt="" class="card-img-top card-v">
         <div class="card-body">
           <h5 class="card-title"><b>Просто прекрасный мужчина</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur blanditiis delectus dolor ea harum impedit iste iure, obcaecati pariatur quo quos reiciendis, sint ullam, veniam voluptas voluptatum?</p>
-          <a href="#" class="btn btn-primary">Согласен</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-6">
       <div class="card портрет">
+        <button type="button" class="btn-close delete-card" aria-label="Close"></button>
         <img src="img/rayan.jpg" alt="" class="card-img-top ">
         <div class="card-body">
           <h5 class="card-title"><b>Крутой мужик</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur blanditiis delectus dolor ea harum impedit iste iure, obcaecati pariatur quo quos reiciendis, sint ullam, veniam voluptas voluptatum?</p>
-          <a href="#" class="btn btn-primary">Согласен</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-6">
       <div class="card пейзаж">
+        <button type="button" class="btn-close delete-card" aria-label="Close"></button>
         <img src="img/pic1.jpg" alt="" class="card-img-top ">
         <div class="card-body">
           <h5 class="card-title"><b>Прекрасная картина</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur blanditiis delectus dolor ea harum impedit iste iure, obcaecati pariatur quo quos reiciendis, sint ullam, veniam voluptas voluptatum?</p>
-          <a href="#" class="btn btn-primary">Согласен</a>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-6">
       <div class="card пейзаж">
+        <button type="button" class="btn-close delete-card" aria-label="Close"></button>
         <img src="img/japan.jpg" alt="" class="card-img-top card-v">
         <div class="card-body">
           <h5 class="card-title"><b>Прекрасная картина</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur blanditiis delectus dolor ea harum impedit iste iure, obcaecati pariatur quo quos reiciendis, sint ullam, veniam voluptas voluptatum?</p>
-          <button class="btn btn-primary">Согласен</button>
         </div>
       </div>
     </div>
     <div class="col-lg-4 col-md-6 col-6">
       <div class="card мемы">
+        <button type="button" class="btn-close delete-card" aria-label="Close"></button>
         <img src="img/monke.jpg" alt="" class="card-img-top card-v">
         <div class="card-body">
           <h5 class="card-title"><b>Я на парах:</b></h5>
           <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet animi aspernatur blanditiis delectus dolor ea harum impedit iste iure, obcaecati pariatur quo quos reiciendis, sint ullam, veniam voluptas voluptatum?</p>
-          <a href="#" class="btn btn-primary ">Согласен</a>
         </div>
       </div>
     </div>

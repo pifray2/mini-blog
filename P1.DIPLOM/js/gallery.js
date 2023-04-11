@@ -64,6 +64,26 @@ $(document).ready(function() {
   });
 });
 
+// delete card func
+
+const deleteButtons = document.querySelectorAll('.delete-card');
+deleteButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    const cardId = button.dataset.cardid;
+    if (confirm("Вы действительно хотите удалить эту карточку?")) {
+      fetch(`includes/delete_card.php?card_id=${cardId}`)
+        .then(response => response.text())
+        .then(result => {
+          if (result === "Card deleted successfully") {
+            location.reload();
+          } else {
+            console.log(result);
+          }
+        })
+    }
+  });
+});
+
 // // card-add function
 // $(document).ready(function() {
 //   let cardCount = 6;

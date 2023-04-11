@@ -338,6 +338,7 @@ input {
   border: none;
 }
 
+
 .file-drop {
   border: 2px dashed #ccc;
   border-radius: 15px;
@@ -356,4 +357,19 @@ input {
   height: 28%;
   opacity: 0;
   cursor: pointer;
+}
+
+#card-class {
+  padding: 8px 8px 8px 15px;
+  width: 285px;
+  resize: none;
+  overflow-y:auto;
+  border-radius: 10px;
+  border: none;
+}
+
+.delete-card {
+  position: absolute;
+  top: 0;
+  right: 0;
 }

@@ -1,4 +1,5 @@
 Проект был написан для дипломной работы, дальнейшего апдейта не будет. Но могу выделить для себя на будущее: использовать Grid чтобы страничка спокойно масштабировалась! 
+
 ![image](https://github.com/pifray2/mini-blog/assets/100876117/11e0578a-306f-4498-a58b-0f8166d7d359)
 ![image](https://github.com/pifray2/mini-blog/assets/100876117/16f44079-095d-48c2-b11a-5a1d38c85d28)
 ![image](https://github.com/pifray2/mini-blog/assets/100876117/c98b27f5-50db-4b0f-9dc1-8ad518e26ad3)
